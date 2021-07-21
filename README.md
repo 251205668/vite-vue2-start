@@ -5,19 +5,19 @@ Starter template example for Vue2 + Typescript + Vite.
 ## Project setup
 
 ```
-pnpm install
+yarn install
 ```
 
 ### Compiles and hot-reloads for development
 
 ```
-pnpm run serve
+yarn run serve
 ```
 
 ### Compiles and minifies for production
 
 ```
-pnpm run build
+yarn run build
 ```
 
 ### Lints and fixes files
