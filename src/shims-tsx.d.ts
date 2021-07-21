@@ -11,3 +11,10 @@ declare global {
     }
   }
 }
+
+// See https://vuejs.org/v2/guide/typescript.html
+declare module "vue/types/options" {
+  interface ComponentOptions<V extends Vue> {
+    [key: string]: any;
+  }
+}

@@ -16,7 +16,12 @@ const config = defineConfig({
     minify: true,
   },
 
-  plugins: [createVuePlugin({}), ViteComponents({ transformer: "vue2" })],
+  plugins: [
+    createVuePlugin({
+      jsx: true,
+    }),
+    ViteComponents({ transformer: "vue2" }),
+  ],
 
   server: {
     port: 8080,
