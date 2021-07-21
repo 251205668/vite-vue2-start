@@ -1,4 +1,4 @@
-# Vue2 + Typescript + Vite Starter Template
+# Vue2 + Typescript + Vite Starter Template（TSX）
 
 Starter template example for Vue2 + Typescript + Vite.
 
@@ -11,21 +11,17 @@ yarn install
 ### Compiles and hot-reloads for development
 
 ```
-yarn run serve
+yarn dev
 ```
 
 ### Compiles and minifies for production
 
 ```
-yarn run build
+yarn build
 ```
 
 ### Lints and fixes files
 
 ```
-pnpm run lint
+yarn lint
 ```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
